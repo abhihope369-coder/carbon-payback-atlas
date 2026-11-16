@@ -1,0 +1,21 @@
+{
+  "source_name": "Our World in Data - Energy dataset (electricity data from Ember)",
+  "download_url": "https://raw.githubusercontent.com/owid/energy-data/master/owid-energy-data.csv",
+  "repository": "https://github.com/owid/energy-data",
+  "licence": "CC BY 4.0 (Our World in Data); underlying Ember data CC BY 4.0",
+  "date_accessed": "2026-11-15",
+  "target_variable": "carbon_intensity_elec",
+  "target_units": "g CO2e per kWh (lifecycle emissions of electricity generation)",
+  "year_range": [
+    2000,
+    2025
+  ],
+  "filtering": {
+    "countries_with_iso_code": 220,
+    "countries_with_any_intensity": 213,
+    "min_generation_twh_latest_year": 10.0,
+    "min_years_of_history": 15,
+    "countries_in_model_universe": 109,
+    "countries_with_internal_gaps": {}
+  }
+}
